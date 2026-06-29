@@ -1,0 +1,125 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-06-29",
+  "disclaimer": "以下内容整理自公开医学教育资料，仅供康复记录参考。任何训练决策必须以你的主治医生或康复师书面/口头医嘱为准。如出现疼痛持续加重、发热、红肿、麻木等情况，请立即就医。",
+  "articles": [
+    {
+      "id": "weight-bearing",
+      "templateIds": ["fracture", "ligament", "sprain", "surgery", "custom"],
+      "term": "负重（Weight Bearing）",
+      "explanation": "指受伤脚承担身体重量的比例。常见医嘱缩写：NWB（不负重）、TTWB（脚尖触地）、PWB（部分负重，通常25%-50%）、WBAT（可耐受负重）、FWB（全负重）。恢复应循序渐进，以疼痛和肿胀不加重为前提。",
+      "sources": [
+        {
+          "title": "Fracture Management - Weight Bearing",
+          "organization": "American Academy of Orthopaedic Surgeons (AAOS)",
+          "url": "https://www.orthoinfo.org/en/diseases--conditions/",
+          "summary": "骨科患者负重需遵循医嘱逐步过渡，避免过早全负重导致移位或延迟愈合。"
+        },
+        {
+          "title": "Sprained Ankle - Recovery",
+          "organization": "NHS UK",
+          "url": "https://www.nhs.uk/conditions/sprains-and-strains/",
+          "summary": "扭伤早期保护受伤部位，在可耐受范围内逐步恢复活动量。"
+        }
+      ]
+    },
+    {
+      "id": "rice-police",
+      "templateIds": ["sprain", "ligament"],
+      "term": "POLICE 原则",
+      "explanation": "现代运动损伤急性期处理：Protection（保护）、Optimal Loading（最佳负荷）、Ice（冰敷）、Compression（加压）、Elevation（抬高）。比旧版 RICE 更强调在保护下尽早进行可耐受的活动。",
+      "sources": [
+        {
+          "title": "Soft-Tissue Injuries: Pearls and Pitfalls",
+          "organization": "British Journal of Sports Medicine",
+          "url": "https://bjsm.bmj.com/",
+          "summary": "POLICE 方案被广泛引用于踝关节扭伤等软组织损伤早期管理。"
+        }
+      ]
+    },
+    {
+      "id": "ankle-pump",
+      "templateIds": ["fracture", "ligament", "sprain", "surgery"],
+      "term": "踝泵",
+      "explanation": "脚尖向上勾、再向下压，反复进行。促进静脉回流、减轻肿胀、降低长期制动导致血栓的风险。通常从受伤后早期即可在无痛范围内开始。",
+      "sources": [
+        {
+          "title": "Foot and Ankle Conditioning Program",
+          "organization": "American Academy of Orthopaedic Surgeons (AAOS)",
+          "url": "https://orthoinfo.aaos.org/en/recovery/foot-and-ankle-conditioning-program/",
+          "summary": "AAOS 足部踝关节康复-conditioning 项目包含踝部活动度练习。"
+        }
+      ]
+    },
+    {
+      "id": "fracture-phases",
+      "templateIds": ["fracture"],
+      "term": "骨折康复阶段",
+      "explanation": "一般分三期：① 急性期（保护、消肿、维持活动度）② 修复期（在医嘱下逐步负重、强化肌力）③ 功能期（步态训练、平衡与回归运动）。具体时间因骨折部位、是否手术、愈合情况而异。",
+      "sources": [
+        {
+          "title": "Fractures - Healing and Recovery",
+          "organization": "Mayo Clinic",
+          "url": "https://www.mayoclinic.org/diseases-conditions/broken-bones/diagnosis-treatment/drc-20370482",
+          "summary": "骨折愈合时间因年龄、部位、严重程度而异，康复需个体化。"
+        }
+      ]
+    },
+    {
+      "id": "ligament-grades",
+      "templateIds": ["ligament", "sprain"],
+      "term": "韧带损伤分级",
+      "explanation": "I 度：纤维拉伤，稳定性基本保留；II 度：部分撕裂，可有轻度不稳；III 度：完全撕裂，稳定性明显下降。分级越高，恢复周期通常越长，部分 III 度可能需要手术。",
+      "sources": [
+        {
+          "title": "Ankle Sprain",
+          "organization": "OrthoInfo (AAOS)",
+          "url": "https://orthoinfo.aaos.org/en/diseases--conditions/ankle-sprain/",
+          "summary": "踝关节扭伤按韧带损伤程度分级，治疗方案与恢复时间不同。"
+        }
+      ]
+    },
+    {
+      "id": "post-surgery",
+      "templateIds": ["surgery"],
+      "term": "术后康复原则",
+      "explanation": "术后方案高度依赖术式（ORIF、韧带重建等）和主刀医生要求。通常强调：伤口护理、按时复查、严格遵循负重时间表、不擅自提前脱拐或跑步。",
+      "sources": [
+        {
+          "title": "Postoperative Care Guidelines",
+          "organization": "American Orthopaedic Foot & Ankle Society (AOFAS)",
+          "url": "https://www.aofas.org/",
+          "summary": "足踝术后康复应遵循手术团队给出的阶段性负重与活动限制。"
+        }
+      ]
+    },
+    {
+      "id": "pain-monitoring",
+      "templateIds": ["fracture", "ligament", "sprain", "surgery", "custom"],
+      "term": "疼痛监测",
+      "explanation": "康复训练中的疼痛管理常用「0-10 评分」。原则：训练中轻微不适可接受，但训练后疼痛不应比基线明显加重，且不应持续到次日。疼痛持续上升是减量或就医的信号。",
+      "sources": [
+        {
+          "title": "Pain scales in rehabilitation",
+          "organization": "World Health Organization (WHO)",
+          "url": "https://www.who.int/standards/classifications/international-classification-of-functioning-disability-and-health",
+          "summary": "疼痛自评量表是康复随访的常用工具，用于指导活动量调整。"
+        }
+      ]
+    },
+    {
+      "id": "red-flags",
+      "templateIds": ["fracture", "ligament", "sprain", "surgery", "custom"],
+      "term": "危险信号（Red Flags）",
+      "explanation": "需立即就医的情况：剧烈疼痛突然加重、患肢明显发热发红、发烧、伤口渗液异味、脚趾麻木发紫发凉、无法负重且疼痛难忍、小腿肿胀伴胸痛（警惕血栓）。",
+      "sources": [
+        {
+          "title": "When to seek medical advice",
+          "organization": "NHS UK",
+          "url": "https://www.nhs.uk/conditions/sprains-and-strains/",
+          "summary": "无法活动、剧痛、畸形或麻木时应及时就医评估。"
+        }
+      ]
+    }
+  ]
+}
