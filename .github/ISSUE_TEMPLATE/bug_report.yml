@@ -1,0 +1,43 @@
+name: Bug report
+description: 报告可复现的问题
+title: "bug: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。请先搜索现有 Issue，并删除日志中的密钥、令牌和个人健康信息。
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: 问题描述
+      description: 实际发生了什么，期望发生什么？
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 打开...
+        2. 点击...
+        3. 看到...
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: 环境
+      description: 浏览器、操作系统和设备版本
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 日志或截图
+      description: 请先完成脱敏
+    validations:
+      required: false
